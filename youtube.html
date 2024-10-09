@@ -3,83 +3,23 @@
 <head>
   
   <title>Youtube.com</title>
-  <style>
-    .search-bar {
-    display: block;
-    }
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
 
-    img {
-      width: 300px;
-    }
-  
-    p {
-    font-family: Roboto, Arial;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    }
-    .video-title {
-      font-weight: bold;
-      font-size: 14px;
-      margin-top: 0px;
-      line-height: 24px;
-      margin-bottom: 12px;
-      font-weight: bold;
-      line-height: 20px;
-      cursor: pointer;
-    } 
-    .video-author, .video-stats {
-      
-      font-size: 11px;
-      color: rgb(96, 96, 96);
-      
-    }
-    .video-author {
-      margin-bottom: 2px;
-      cursor: pointer;
-    }
-    /* .video-description {
-      width: 280px;
-      color: rgb(96, 96, 96);
-      font-size: 14px;
-      margin-top: 10px;
-      margin-bottom: 100px;
-    } */
-
-    .video-preview {
-      width: 300px;
-      display: inline-block;
-      vertical-align: top;
-      margin-right: 15px;
-    }
-    
-    .video-info-grid {
-      display: grid;
-      grid-template-columns: 50px 1fr;
-    }
-
-
-    .profile-picture {
-      width: 40px;
-      border-radius: 50px;
-      cursor: pointer;
-    }
-
-    .thumbnail {
-      cursor: pointer;
-      width: 100%;
-    }
-    .video-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      column-gap: 16px;
-      row-gap: 15px;
-
-    }
-  </style>
 </head>
 <body>
-  <input type="text" placeholder="Search" class="search-bar">
+  <div class="header">
+
+    <div class="left-section">left section</div>
+
+    <div class="middle-section">
+      <input type="text" placeholder="Search" class="search-bar">
+    </div>
+
+    <div class="right-section"> right section</div>
+  </div>
+
 
   <div class="video-grid">
     <div class="video-preview">
@@ -108,9 +48,8 @@
         </div>
       </div>
     </div>
-      
-  
-      
+    
+    
     <div class="video-preview">
       <div>
         <img src="thumbnails/thumbnail-2.webp" alt="" class="thumbnail">
@@ -137,6 +76,7 @@
       </div>
     </div>
   
+
     <div class="video-preview">
       
       <div>
@@ -163,9 +103,8 @@
         </div>
       </div>
     </div>
-      
-  
-      
+    
+    
     <div class="video-preview">
       <div>
         <img src="thumbnails/thumbnail-4.webp" alt="" class="thumbnail">
@@ -192,6 +131,7 @@
       </div>
     </div>
   
+
     <div class="video-preview">
       
       <div>
@@ -219,8 +159,7 @@
       </div>
     </div>
       
-  
-      
+
     <div class="video-preview">
       <div>
         <img src="thumbnails/thumbnail-6.webp" alt="" class="thumbnail">
